@@ -1,4 +1,3 @@
-from fastapi import FastAPI
 import pickle
 import re
 from adal import AuthenticationContext
