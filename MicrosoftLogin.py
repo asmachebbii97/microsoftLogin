@@ -1,10 +1,15 @@
+from fastapi import FastAPI
+import pickle
+import re
+from adal import AuthenticationContext
 
-pip install adal
+app = FastAPI()
 
+
+@app.get('/token')
 def AzureAccessToken():
  
-  import re
-  from adal import AuthenticationContext
+  
  
   username = 'asmachebbi@IPACT416.onmicrosoft.com'
   password = 'Asma789@'
