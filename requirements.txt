@@ -1,4 +1,0 @@
-adal
-Flask
-fastapi
-gunicorn
