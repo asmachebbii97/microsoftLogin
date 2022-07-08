@@ -1,0 +1,3 @@
+adal
+fastapi
+gunicorn
