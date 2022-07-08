@@ -34,5 +34,3 @@ def AzureAccessToken():
   return {
     "AzureToken":token["accessToken"]
     }
-
-AzureAccessToken()
