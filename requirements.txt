@@ -1,3 +1,5 @@
 adal
 flask-ngrok
 gunicorn
+flask-cors
+flask
