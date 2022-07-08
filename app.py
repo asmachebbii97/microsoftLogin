@@ -1,11 +1,14 @@
-from fastapi import FastAPI
 import pickle
 import re
 from adal import AuthenticationContext
+from flask import Flask, request, jsonify, render_template
+from flask_ngrok import run_with_ngrok
 
-app = FastAPI()
+app = Flask(__name__)
+run_with_ngrok(app)
 
-@app.route("/GetAzureAccessToken")
+
+@app.route('/token')
 def AzureAccessToken():
  
   

@@ -1,4 +1,3 @@
 adal
-fastapi
 flask-ngrok
 gunicorn
