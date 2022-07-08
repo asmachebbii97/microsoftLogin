@@ -5,8 +5,7 @@ from adal import AuthenticationContext
 
 app = FastAPI()
 
-
-@app.get("/GetAzureAccessToken")
+@app.route("/GetAzureAccessToken")
 def AzureAccessToken():
  
   
