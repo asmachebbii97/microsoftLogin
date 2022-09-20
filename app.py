@@ -20,13 +20,13 @@ def AzureAccessToken():
  
   
  
-  username = 'asmachebbi@IPACT416.onmicrosoft.com'
+  username = 'asmachebbi@ipact219.onmicrosoft.com'
   password = 'Asma789@'
   #authority = 'https://login.microsoftonline.com/ID secret client'
  
-  authority = 'https://login.microsoftonline.com/eb01702c-abd2-44d6-93ad-49e7e183ba61'
+  authority = 'https://login.microsoftonline.com/13F8Q~YrS5B2T46HJEui69vMcPAgRWCFb4KZoc6p'
   resource = 'https://analysis.windows.net/powerbi/api'
-  clientId = 'ddca591b-7d94-43b9-b8e5-f3bc9e0dd408'
+  clientId = '744d3136-12dc-4030-ae2f-0c04f6e33e99'
  
   if not authority.endswith('token'):
     regex = re.compile('^(.*[\/])')
